@@ -19,4 +19,15 @@ cmake --build . --target install  <br />
 This library extract from PyTorch Library which was developed by Facebook AI Research (FAIR) <br />
 Caffe2 library tested in Nvidia AGX Xavier environment <br />
 
+# Changes
+I have made code changes in fo OpenCV
+
+`caffe2/image/image_input_op.h  <br />`
+
+I have made code changes in fo cudnn8
+
+`caffe2/operators/conv_op_cudnn <br />
+ caffe2/operators/recurrent_op_cudnn.cc <br />
+ caffe2/operators/conv_transpose_op_cudnn.cc <br />`
+
 NOTE: When you use different environment and getting any error, send me email and I can help you
