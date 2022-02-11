@@ -6,17 +6,17 @@ Caffe2.ai mention that "We’d love to start by saying that we really appreciate
 
 
 # Required Environment
-1->CUDA version 10.2
-2->CUDNN version > 8.x
-3->OpenCV version = 4.5.5
+1->CUDA version 10.2  <br />
+2->CUDNN version > 8.x  <br />
+3->OpenCV version = 4.5.5  <br />
 
 # CMake Command
-mkdir caffe2_build
-cd caffe2_build
-cmake -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Release -DPYTHON_EXECUTABLE:PATH=`which python3` -DCMAKE_INSTALL_PREFIX:PATH=../caffe_install ../caffe2
-cmake --build . --target install
+mkdir caffe2_build  <br />
+cd caffe2_build  <br />
+cmake -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Release -DPYTHON_EXECUTABLE:PATH=`which python3` -DCMAKE_INSTALL_PREFIX:PATH=../caffe_install ../caffe2  <br />
+cmake --build . --target install  <br />
 
-This library extract from PyTorch Library which was developed by Facebook AI Research (FAIR)
-Caffe2 library tested in Nvidia AGX Xavier environment
+This library extract from PyTorch Library which was developed by Facebook AI Research (FAIR) <br />
+Caffe2 library tested in Nvidia AGX Xavier environment <br />
 
 NOTE: When you use different environment and getting any error, send me email and I can help you
