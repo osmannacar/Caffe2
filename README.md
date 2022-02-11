@@ -11,10 +11,10 @@ Caffe2.ai mention that "We’d love to start by saying that we really appreciate
 3->OpenCV version = 4.5.5  <br />
 
 # CMake Command
--`mkdir caffe2_build`  <br />
--`cd caffe2_build ` <br />
--`cmake -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Release -DPYTHON_EXECUTABLE:PATH=`which python3` -DCMAKE_INSTALL_PREFIX:PATH=../caffe_install ../caffe2`  <br />
--`cmake --build . --target install ` <br />
+-mkdir caffe2_build  <br />
+-cd caffe2_build <br />
+-cmake -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Release -DPYTHON_EXECUTABLE:PATH=`which python3` -DCMAKE_INSTALL_PREFIX:PATH=../caffe_install ../caffe2 <br />
+-cmake --build . --target install  <br />
 
 # Changes
 I have made code changes in fo OpenCV
