@@ -16,7 +16,7 @@ Caffe2.ai mention that "We’d love to start by saying that we really appreciate
 -cmake -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Release -DPYTHON_EXECUTABLE:PATH=`which python3` -DCMAKE_INSTALL_PREFIX:PATH=../caffe_install ../caffe2 <br />
 -cmake --build . --target install  <br />
 
-# Different Cuda and OpenCV version, follow below Changes
+# Different Cuda and OpenCV version, make change in below file
 I have made code changes in fo OpenCV
 
 `caffe2/image/image_input_op.h`  <br />
