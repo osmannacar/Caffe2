@@ -11,6 +11,7 @@ Caffe2.ai mention that "We’d love to start by saying that we really appreciate
 3->OpenCV version = 4.5.5  <br />
 
 # CMake Command
+::
 -mkdir caffe2_build  <br />
 -cd caffe2_build <br />
 -cmake -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Release -DPYTHON_EXECUTABLE:PATH=`which python3` -DCMAKE_INSTALL_PREFIX:PATH=../caffe_install ../caffe2 <br />
@@ -18,14 +19,14 @@ Caffe2.ai mention that "We’d love to start by saying that we really appreciate
 
 # Different Cuda and OpenCV version, make change in below file
 I have made code changes in fo OpenCV
-
-`caffe2/image/image_input_op.h`  <br />
+::
+caffe2/image/image_input_op.h  <br />
 
 I have made code changes in fo cudnn8
-
-`caffe2/operators/conv_op_cudnn` <br />
-`caffe2/operators/recurrent_op_cudnn.cc` <br />
-`caffe2/operators/conv_transpose_op_cudnn.cc` <br />
+::
+caffe2/operators/conv_op_cudnn <br />
+caffe2/operators/recurrent_op_cudnn.cc <br />
+caffe2/operators/conv_transpose_op_cudnn.cc <br />
 
 #
 This library extract from [PyTorch](https://github.com/pytorch/pytorch) Library which was developed by Facebook AI Research (FAIR) <br />
