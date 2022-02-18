@@ -24,11 +24,11 @@ CMake Command
 
 # Different Cuda and OpenCV version, make change in below file
 
-I have made code changes in fo OpenCV
+To change OpenCV version, you need to make changes to the following file
 ```
    caffe2/image/image_input_op.h
 ```
-I have made code changes in fo cudnn8
+To change CUDNN version, you need to make changes to the following file. 
 ```
    caffe2/operators/conv_op_cudnn.cc
    caffe2/operators/recurrent_op_cudnn.cc
