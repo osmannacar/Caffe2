@@ -56,7 +56,7 @@ int main(int argc, char** argv) {
 
   // Only check if plan is specified AFTER MPI setup such that we can test
   // whether or not MPI setup works without having a plan to run.
-  if (FLAGS_plan == "") {
+  if (caffe2::FLAGS_plan == "") {
     std::cerr << "No plan defined! Exiting...\n";
     return 0;
   }

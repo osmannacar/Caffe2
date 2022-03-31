@@ -19,7 +19,7 @@ CMake Command
    mkdir caffe2_build 
    cd caffe2_build
    cmake -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Release -DPYTHON_EXECUTABLE:PATH=`which python3` -DCMAKE_INSTALL_PREFIX:PATH=../caffe_install ../caffe2
-   cmake --build . --target install 
+   cmake --build . --target install
 ```
 
 # Different Cuda and OpenCV version, make change in below file
@@ -38,6 +38,6 @@ To change CUDNN version, you need to make changes to the following file.
 #
 This library extract from [PyTorch](https://github.com/pytorch/pytorch) Library which was developed by Facebook AI Research (FAIR) <br />
 Get some help from [caffe2 old release](https://github.com/facebookarchive/caffe2)
-Caffe2 library tested in Nvidia AGX Xavier <br />
+Caffe2 library tested in Nvidia GeForce RTX 2060 and Jetson Boards such as AGX Xavier, Nx and Tx2 <br />
 
 NOTE: Getting any error, send me email and I can help you
