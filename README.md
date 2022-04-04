@@ -11,7 +11,7 @@ Required
 ```
 1->CUDA version 10.2 
 2->CUDNN version > 8.x 
-3->OpenCV version = 4.5.5 
+3->OpenCV version = 4.1 
 ```
 CMake Command
 ------------------------------
