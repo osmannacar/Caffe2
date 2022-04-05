@@ -13,6 +13,15 @@ Required
 2->CUDNN version > 8.x 
 3->OpenCV version = 4.1 
 ```
+ Run below command for Required lib
+------------------------------
+```
+sudo apt-get install protobuf-compiler libprotobuf-dev
+sudo apt install libgoogle-glog-dev
+sudo apt update
+sudo apt upgrade
+```
+
 CMake Command
 ------------------------------
 ```
